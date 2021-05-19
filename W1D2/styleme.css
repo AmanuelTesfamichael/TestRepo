@@ -35,11 +35,11 @@ p{
 }
 hr{
 	border-color: grey;
-	border-width: 2px;
-	border-radius: 2px;
+	border-width: 1px;
+	border-radius: 1px;
 }
 img{
-		border-radius: 20px;
+		border-radius: 10px;
 
 }
 a:hover{
