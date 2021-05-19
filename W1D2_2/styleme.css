@@ -1,0 +1,58 @@
+body{
+    background-color: lightblue;
+
+}
+.mainscreen{
+    height: 650px;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(126, 101, 139);
+    overflow: scroll;
+}
+.home{
+    vertical-align: middle;
+}
+#Amanuel{
+    font-size: 2em;
+    color: blue;
+    text-shadow: -1px 2px yellow;
+}
+.favorite{
+    color: goldenrod;
+    border: 3px dotted black;
+}
+.mymood{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+hr{
+	border-color: grey;
+	border-width: 1px;
+	border-radius: 1px;
+}
+img{
+		border-radius: 10px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.name::first-letter{
+    font-size: 45px;
+}
+/*.list{
+    background-color:darkgray;
+    color: white;
+}
+.list > li{
+    text-decoration: underline;
+    color: magenta
+}*/
