@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GRADE RETRIEVE
+</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="GradeRetrieval.css">
+	<link rel="icon" type="image/jpg" href="logo.jpg">
+</head>
+<body>
+	
+	
+	<fieldset class="apf"><legend class="appform">Grade Retrieve Form</legend>
+	<form action="http://mumstudents.org/params.php" class="form">
+		<fieldset><legend>Students information for Grade Retieval</legend>
+			<label>Full Name: <input type="text" name="name" /></label><br/><br/>
+			<label>Student Id: <input type="text" name="id" ></label><br/><br/>
+			<p>Course you seeking: 
+			<select name= "Course you wanted to check Grade.">
+				<option>CS390 - Fundamenta Programming Practice</option>
+				<option>CS401 - Modern Programming Practice</option>
+				<option>CS422 - Database Management System</option>
+				<option>CS472 - Web Application Programming</option>
+				<option>CS435 - Algorithms</option>
+				<option>CS425 - Software Engineering</option>
+				<option>CS525 - Advanced Software Develpoment</option>
+				<option>CS472 - Web Application Programming</option>
+				<option>CS544 - Modern Web Application</option>
+				<option>CS435 - Web Application Architecture</option>
+
+			</select>
+			</p>
+		</fieldset><br/>
+			
+
+			
+			<fieldset><legend>Are you checking only yours?</legend>
+			<label><input type="radio" name="gen" value="Mine" checked/>Yes, only mine.</label>
+			<label><input type="radio" name="gen" value="Others"/>No, I checked others only.</label>
+			<label><input type="radio" name="gen" value="MineAndOthers"/>I checked mine and others.</label>
+		</fieldset><br/>
+		
+
+		
+		<fieldset><legend>Privacy agreement</legend>
+	<p>This is the Maharishi International University Policy. Every student supposed to
+		check only his/her own grade only. If you checking on the above radio check point
+		that you are retrieved other student/s grade, you violated the policy. But if 
+		you said that you looking only yours.
+		Are you sure you are telling the truth? If so check the box.
+	</p> 
+	<label> <input type="checkbox" name="yes, I do"/> Yes, I do.</label><br/></fieldset><br/>
+
+			<input type="submit" name="submit">
+			<input type="reset" name="reset"/><br/><br>
+			<a href="file:///Users/amanuel/Desktop/TestRepo/W1D1/Lab1.html"><img src="./home.jpg" alt="henok" width="30" class="home">BACK TO HOME</a>
+			
+		
+		</form>
+		
+
+
+</fieldset>
+</body>
+</html>
