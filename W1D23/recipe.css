@@ -1,0 +1,75 @@
+h2{
+	color: rgb(164,164,0);
+	background-color: rgb(240,240,240);
+	font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 18pt;
+	letter-spacing: 0.25em;
+}
+.menu{
+	list-style-type: none;
+}
+.home{
+	vertical-align: middle;
+}
+.main{
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+}
+body{
+	color: rgb(64,64,64);
+	background-color: white;
+	font-family: Georgia, Garamond, Arial;
+	background-image: url("silverware1.jpg");
+	background-repeat: repeat;
+}
+.mainmenu{
+	background-color: rgba(255, 255, 0, 0.747);
+}
+.lemmonpie{
+	background-image: url("silverware.jpg");
+}
+.apple{
+	
+	background-image: url("silverware2.jpg");
+	
+}
+.rosette{
+	
+	background-image: url("silverware1.jpg");
+	
+}
+
+
+a{
+	color: rgb(164,164,0);
+}
+.val{
+	text-align: right;
+}
+.copy{
+	text-align: right;
+}
+.bh{
+	position: fixed;
+	right: 15px;
+	top: 15px;
+
+}
+blockquote{
+	background-color: rgb(255,255,168);
+	font-style: italic;
+
+}
+.backtomenu{
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	
+}
+.pie{
+	list-style-image: url("./images/pie_icon.gif");
+}
+
