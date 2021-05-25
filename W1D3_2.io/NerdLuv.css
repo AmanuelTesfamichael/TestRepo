@@ -18,7 +18,11 @@ body{
 	margin: 80px;
 	border-radius: 20px;
 	width: 530;
+	float: left;
 
+}
+#footer{
+	clear: left;
 }
 
 h1{

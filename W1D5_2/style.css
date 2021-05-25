@@ -1,6 +1,11 @@
 html{
-    background-color: #333232;
+    background-color: white;
     height: 100%;
+}
+#hPage{
+    float: right;
+    margin-right: 0;
+    margin-left: 90%;
 }
 #container{
     height: 325px;
