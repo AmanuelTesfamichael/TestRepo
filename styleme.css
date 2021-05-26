@@ -4,4 +4,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
+body{
+    background-color:#F5E4C3;   
+    margin-right: 0 auto;  
+    margin-left:0 auto;
+    margin-top: 0px;
+    margin-left: 33%;
+    margin-right: 33%;
+
+} 
