@@ -32,12 +32,14 @@ img {
 	border: 1px solid black;
 	padding: 5px;
 	cursor: default;
+	border-radius: 10px;
 	
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 25pt;
 	text-align: center;
 }
  #end {
+	 color: white;
 	position: absolute;
 	top: 155px;
 	height: 30px;
@@ -45,17 +47,17 @@ img {
 	border: 1px solid black;
 	padding: 5px;
 	cursor: default;
-	
+	border-radius: 10px;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 25pt;
 	text-align: center;
 }
 #maze #start {
-	background-color: #88ff88;
+	background-color: white;
 	left: 0;
 }
 #maze #end {
-	background-color: #8888ff;
+	background-color: black;
 	right: 0;
 }
 
@@ -85,7 +87,7 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 	height: 350px;
 	width: 150px;
 	z-index: 1;
-	background-color: #0d0f0d;
+	background-color: #0a06f5;
 }
 #maze div.boundary + div.boundary {
 	border-left: none;
@@ -95,7 +97,7 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 	left: 151px;
 	height: 150px;
 	width: 150px;
-	background-color: #0d0f0d;
+	background-color: #0a06f5;
 }
 #maze div.boundary + div.boundary + div.boundary {
 	border-left: none;
@@ -105,7 +107,7 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 	left: 301px;
 	height: 50px;
 	width: 200px;
-	background-color: #0d0f0d;
+	background-color: #0a06f5;
 }
 #maze div.boundary + div.boundary + div.boundary + div.boundary  {
 	border-right: 1px black solid;
@@ -116,7 +118,7 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 	left: 501px;
 	height: 150px;
 	width: 150px;
-	background-color: #0d0f0d;
+	background-color: #0a06f5;
 }
 #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary {
 	border-right: 1px black solid;
