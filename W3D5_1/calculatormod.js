@@ -17,12 +17,12 @@ exports.displays=function(req,res,vals){
     res.write("<html>");
     res.write("<head><meta charset=\"utf-8\"/>"); 
     res.write("<title>Calculator Web Site</title>"); res.write("</head>");
-    res.write("<body>");
-    res.write("<p style=\"background-color:green\" ; style=\"font:14pt bold\";>The result is: ");
+    res.write("<body style=\"background-color: lightblue\"; style=\"margin-left: 500px\";");
+    res.write("<p style=\"background-color:yellow\" ; style=\"font:24pt bold\";>The result is: ");
           res.write(String(result));
     res.write("</p>");
     res.write(
-        "<a href='https://selamwoldu.github.io/MyFirstRepo/Node/myFirstApp/calculator.html'>Another calculation</a>"
+        "<a href= './calculator.html'>Back</a>"
       );
     res.write("</body>");
     res.write("</html>");

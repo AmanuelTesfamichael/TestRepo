@@ -101,18 +101,19 @@ exports.guessnumber = function (req, res, vals) {
     res.write("</form>");
   
     res.write(
-      "<a href='https://github.com/AmanuelTesfamichael/TestRepo/blob/main/W3D5_2/startquiz.html'>Start over</a>"
+      "<a href='startquiz.html'>Start over</a>"
     );
     res.write("</body>");
     res.write("</html>");
     return res.end();
   }
   function displayfnalMesg(req, res, score, ans) {
-    res.writeHead(200, { "Content-Type": "text/html" });
+    res.writeHead(200, {  });
     res.write("<!DOCTYPE html>");
     res.write("<html>");
     res.write('<head><meta charset="utf-8"/>');
     res.write("<title>Quiz Game</title>");
+    res.write("<style>body{background-color: blue; margin-left: 500px;}</style>");
     res.write("</head>");
     res.write("<body>");
     res.write("<div>");

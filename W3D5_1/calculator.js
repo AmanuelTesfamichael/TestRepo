@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
     var q = url.parse(req.url, true);
     var qdata=q.query;
 var filename = "." + q.pathname;
-if (q.pathname=="/cal.js")
+if (q.pathname=="/calc.js")
 {
     if(qdata.operation=='add'){
         calculatormod.add(req,res,q.query)
