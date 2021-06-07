@@ -101,7 +101,7 @@ exports.guessnumber = function (req, res, vals) {
     res.write("</form>");
   
     res.write(
-      "<a href='startquiz.html'>Start over</a>"
+      "<a href='https://github.com/AmanuelTesfamichael/TestRepo/blob/main/W3D5_2/startquiz.html'>Start over</a>"
     );
     res.write("</body>");
     res.write("</html>");
