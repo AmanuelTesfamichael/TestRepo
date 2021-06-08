@@ -113,9 +113,8 @@ exports.guessnumber = function (req, res, vals) {
     res.write("<html>");
     res.write('<head><meta charset="utf-8"/>');
     res.write("<title>Quiz Game</title>");
-    res.write("<style>body{background-color: blue; margin-left: 500px;}</style>");
     res.write("</head>");
-    res.write("<body>");
+    res.write("<body style=\"background-color: lightblue\"; style=\"margin-left: 500px\";>");
     res.write("<div>");
     res.write("<h1> The Number Quiz");
     res.write("</h1>");

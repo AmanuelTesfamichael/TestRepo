@@ -9,11 +9,13 @@
         body{
             background-color: rgb(163, 96, 160);
         }
-        div{
+        div, h1, legend{
             margin-left:500px;
         }
         h1{
             margin-left:500px;
+            color:rgb(114, 250, 148);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         legend{
             margin-left: 500px;
@@ -21,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h1 style="color:rgb(114, 250, 148); font-family:Monotype Corsiva">Simple Calculator</h1>
+    <h1>Simple Calculator</h1>
     <form action = "http://localhost:8080/calc.js">
         <fieldset>
             <legend style="background-color: rgb(114, 250, 114);">SELECT TWO NUMBERS:</legend>
@@ -30,15 +32,13 @@
         <input type = "text" name="second"/><br/> <br/>
 
 <select name="operation" id="operation">
-<option id="add" value="add">Add</option>
-<option value="subtract">Subtract</option>
-<option value="multiply">Multiply</option>
-<option value="division">Divide</option>
-
+      <option id="add" value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="division">Divide</option>
 </select>
 
-        <input type="submit" value="Click" style="background-color: sienna; height: 27px; width: 75px;border-radius: 10px;"/>
-        
+        <input type="submit" value="Click" style="background-color: sienna; height: 27px; width: 75px;border-radius: 10px;"/>        
         </div>
 
         </fieldset>
