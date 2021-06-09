@@ -22,11 +22,8 @@ h1, h2{
   line-height: 1.3em;
 }
 .validators { 
-  background: transparent;
-  border: 10px solid rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  margin-bottom: 0 auto;
-  max-width: 55%;
+   margin: 400px 0px 0px 500px;
+   position: fixed;
 }
 input[type="text"] {
   display: block;
@@ -92,10 +89,7 @@ section {
 	text-decoration: none;	
   outline: none;
 }
-#link{
-  position:static;
-  margin-bottom: 0;
-}
+
 #searchKey{
   height: 20px;
   background-color: yellowgreen;
