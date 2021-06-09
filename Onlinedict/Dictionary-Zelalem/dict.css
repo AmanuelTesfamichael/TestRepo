@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+
+section {
+  background-color: #f0ecec;
+}
+
+.banner > h1 {
+  margin: 0px;
+}
+
+.banner {
+  background-color: #e0dcdc;
+}
+
+.banner,
+section {
+  padding: 10px;
+}
+
+ol,
+.validators {
+  padding: 30px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+.validators {
+  text-align: right;
+  position: relative;
+  bottom: 0px;
+}
