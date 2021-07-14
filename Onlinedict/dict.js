@@ -27,7 +27,7 @@ $(document).ready(function () {
 
       data.forEach(function (element) {
         $("#result").append(
-          `<li>${element.word}(${element.wordtype}) :: ${element.definition}</li>`
+          `<li>${element.word}(${element.wordtype})   :   ${element.definition}</li>`
         );
       });
     } else {
